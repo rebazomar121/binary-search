@@ -10,11 +10,14 @@ const Loading = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   }
+  //d26cef
 
   return (
     <>
-      <div>
-        <Lottie options={defaultOptions} height={400} width={400} />
+      <div className="h-screen w-full bg-[#d14bf6df]">
+        <div className="rounded-full">
+          <Lottie options={defaultOptions} height={400} width={400} />
+        </div>
       </div>
     </>
   )
