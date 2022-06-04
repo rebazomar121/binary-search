@@ -19,7 +19,7 @@ const RegexSearch: RegexSearchType = ({ regexSearchData }) => {
     return <></>
 
   return (
-    <ul>
+    <ul className="mb-28">
       {regexSearchData?.slice(0, showNames)?.map((item, index) => {
         return (
           <li key={item?.id || index} className="text-center">
