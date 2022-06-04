@@ -16,7 +16,7 @@ const Loading = () => {
     <>
       <div className="h-screen w-full bg-[#d14bf6df]">
         <div className="rounded-full">
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} height={280} width={280} />
         </div>
       </div>
     </>

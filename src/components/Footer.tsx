@@ -2,7 +2,7 @@ import React from "react"
 import { AiFillGithub } from "react-icons/ai"
 const Footer = () => {
   return (
-    <a className="w-full" href="https://github.com/rebazomar121">
+    <a href="https://github.com/rebazomar121">
       <div
         className="bg-gray-100
              text-xl
@@ -10,7 +10,7 @@ const Footer = () => {
              fixed
              inset-x-0
              bottom-12
-             w-full max-w-4xl md:max-w-2xl lg:max-w-2xl  p-3
+             w-full max-w-4xl md:max-w-2xl lg:max-w-2xl mx-auto p-3
                 rounded-lg
              "
       >
